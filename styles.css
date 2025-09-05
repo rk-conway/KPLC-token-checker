@@ -4,3 +4,21 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+.container{
+    width: clamp(300px, 90%, 1000px);
+    min-height: 100vh;
+    min-height: 100dvh;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
