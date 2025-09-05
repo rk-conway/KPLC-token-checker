@@ -3,7 +3,7 @@
 const checkBtn = document.getElementById('checkBtn');
 const resultDiv = document.getElementById('result');
 
-const auth = 'Bearer 49d49df53e21cfc7e0d0b18d65904cda';
+const auth = 'Bearer 49d49df53e21cfc7e0d0b18d65904cda';// this wont work - token is dynamic
 const metreNo = '37187062379';
 
 
